@@ -1,0 +1,4 @@
+[build]
+  base    = ""            # fuerza la raíz
+  command = "npm run build"
+  publish = "build"
