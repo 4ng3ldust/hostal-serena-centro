@@ -785,7 +785,7 @@ function App() {
                   }
                 </p>
                 <div className="flex space-x-4">
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                  <a href="/" className="text-gray-300 hover:text-white transition-colors">
                     <Instagram className="h-6 w-6" />
                   </a>
                   <a href="mailto:info@hostalserenacentro.cl" className="text-gray-300 hover:text-white transition-colors">
@@ -849,10 +849,10 @@ function App() {
                   }
                 </p>
                 <div className="flex space-x-6 mt-4 md:mt-0">
-                  <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
+                  <a href="/" className="text-gray-300 hover:text-white text-sm transition-colors">
                     {currentLang === 'es' ? 'Términos y Condiciones' : 'Terms & Conditions'}
                   </a>
-                  <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
+                  <a href="/" className="text-gray-300 hover:text-white text-sm transition-colors">
                     {currentLang === 'es' ? 'Política de Privacidad' : 'Privacy Policy'}
                   </a>
                 </div>
